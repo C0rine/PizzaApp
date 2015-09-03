@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,5 +35,15 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void likesPizza(View view) {
+        TextView shoutout = (TextView) findViewById(R.id.textView);
+        shoutout.setText("Fuck yeah!!");
+    }
+
+    public void hatesPizza(View view) {
+        TextView shoutout = (TextView) findViewById(R.id.textView);
+        shoutout.setText("Fuck you >:( !!");
     }
 }
