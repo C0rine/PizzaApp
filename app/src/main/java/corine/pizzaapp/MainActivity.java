@@ -39,11 +39,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void likesPizza(View view) {
         TextView shoutout = (TextView) findViewById(R.id.textView);
-        shoutout.setText("Fuck yeah!!");
+        shoutout.setText("Hurray!!");
     }
 
     public void hatesPizza(View view) {
         TextView shoutout = (TextView) findViewById(R.id.textView);
-        shoutout.setText("Fuck you >:( !!");
+        shoutout.setText("Impossible!!");
     }
 }
